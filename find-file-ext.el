@@ -3,6 +3,7 @@
 ;; Copyright 2009-2012 Florian Kaufmann <sensorflo@gmail.com>
 ;; 
 ;; Author: Florian Kaufmann <sensorflo@gmail.com>
+;; URL: https://gitorious.org/logfile-mode/find-file-ext
 ;; 
 ;; This file is not part of GNU Emacs.
 ;; 
