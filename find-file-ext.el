@@ -46,6 +46,7 @@ know an then what they are."
 
 ;;; Code:
 
+;;;###autoload
 (defun ffe-find-file(abbrev-path)
   "As find-file, however the file to be opened is given as an
   abbreviation."
@@ -113,6 +114,7 @@ know an then what they are."
         (setq real-dir-path (concat real-dir-path "/")))    
     (find-file-existing (concat real-dir-path real-file-name))))
 
+;;;###autoload
 (defun ffe-show-abbrevs ()
   "Shows in the echo area the list of abbrevs for the current
 file. If there exists no map for the current directory, do
